@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "206373095",
+    "Type": "Bus",
+    "GUID": "{E0183DE5-219F-4067-B829-3861ADF8BB7E}",
+    "Language": "SFX",
+    "Hash": "{CD596362-8C66-F721-8C9A-0FF6C3077EAF}",
+    "ObjectPath": "Room_Reverb",
+    "ShortName": "Room_Reverb",
+    "Path": "Bus/Room_Reverb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3701691487",
+       "Name": "Hall_Large_Bright",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Bright",
+       "GUID": "{CB602948-2D1D-4977-A8D5-378184293E80}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "206373095",
+      "Name": "Room_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Room_Reverb",
+      "GUID": "{E0183DE5-219F-4067-B829-3861ADF8BB7E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3701691487"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AC205C6E-D716-921B-7D90-DEB22F89FF4B}"
+ }
+}

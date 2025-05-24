@@ -10,7 +10,7 @@
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-11</Value>
+								<Value>-4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -33,13 +33,7 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Exp1</SegmentShape>
-														</Point>
-														<Point>
-															<XPos>400.8811</XPos>
-															<YPos>-9.58229</YPos>
-															<Flags>0</Flags>
-															<SegmentShape>SCurve</SegmentShape>
+															<SegmentShape>Exp2</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>1000</XPos>
@@ -95,7 +89,7 @@
 														</Point>
 														<Point>
 															<XPos>1000</XPos>
-															<YPos>47</YPos>
+															<YPos>44</YPos>
 															<Flags>37</Flags>
 														</Point>
 													</PointList>
@@ -114,7 +108,7 @@
 													<PointList>
 														<Point>
 															<XPos>0</XPos>
-															<YPos>52.53165</YPos>
+															<YPos>55.14035</YPos>
 															<Flags>5</Flags>
 														</Point>
 														<Point>

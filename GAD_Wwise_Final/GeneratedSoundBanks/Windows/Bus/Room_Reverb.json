@@ -10,17 +10,17 @@
     "Type": "Bus",
     "GUID": "{E0183DE5-219F-4067-B829-3861ADF8BB7E}",
     "Language": "SFX",
-    "Hash": "{CD596362-8C66-F721-8C9A-0FF6C3077EAF}",
+    "Hash": "{20B40DBA-45A6-BA8A-3B93-1096DB8C7337}",
     "ObjectPath": "Room_Reverb",
     "ShortName": "Room_Reverb",
     "Path": "Bus/Room_Reverb.bnk",
     "Plugins": {
      "ShareSets": [
       {
-       "Id": "3701691487",
-       "Name": "Hall_Large_Bright",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Bright",
-       "GUID": "{CB602948-2D1D-4977-A8D5-378184293E80}",
+       "Id": "1520064353",
+       "Name": "Hall_Medium_Bright",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium_Bright",
+       "GUID": "{3C3845B2-C76E-4634-9108-83FA43A5A7BC}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -35,7 +35,7 @@
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "3701691487"
+         "Id": "1520064353"
         }
        ]
       }
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{AC205C6E-D716-921B-7D90-DEB22F89FF4B}"
+  "FileHash": "{E07E1B0E-B6D8-D3E1-9F9B-F9F9F0E219BF}"
  }
 }

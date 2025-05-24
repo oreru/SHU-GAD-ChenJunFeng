@@ -10,17 +10,17 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{669BAD7B-EE18-D44F-C8C6-19019E03628A}",
+    "Hash": "{DA5906E8-B0BE-FB38-DD2C-585C132BAD13}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
      "ShareSets": [
       {
-       "Id": "3701691487",
-       "Name": "Hall_Large_Bright",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Bright",
-       "GUID": "{CB602948-2D1D-4977-A8D5-378184293E80}",
+       "Id": "1520064353",
+       "Name": "Hall_Medium_Bright",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium_Bright",
+       "GUID": "{3C3845B2-C76E-4634-9108-83FA43A5A7BC}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -67,7 +67,7 @@
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "3701691487"
+         "Id": "1520064353"
         }
        ]
       }
@@ -141,6 +141,6 @@
     ]
    }
   ],
-  "FileHash": "{4AD0DF45-DEE9-F2D5-BB46-A78A0CE056AC}"
+  "FileHash": "{1ED53981-A155-8AF7-8420-2643E5A600A4}"
  }
 }

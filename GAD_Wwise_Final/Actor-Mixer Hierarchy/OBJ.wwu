@@ -53,12 +53,12 @@
 													<PointList>
 														<Point>
 															<XPos>0</XPos>
-															<YPos>-200</YPos>
+															<YPos>-4.35285</YPos>
 															<Flags>5</Flags>
 															<SegmentShape>Log1</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>349.4861</XPos>
+															<XPos>311.306953333333</XPos>
 															<YPos>0</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>SCurve</SegmentShape>
@@ -88,6 +88,11 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
+															<XPos>203.21637</XPos>
+															<YPos>0</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
 															<XPos>1000</XPos>
 															<YPos>44</YPos>
 															<Flags>37</Flags>
@@ -108,8 +113,9 @@
 													<PointList>
 														<Point>
 															<XPos>0</XPos>
-															<YPos>55.14035</YPos>
+															<YPos>44.92137</YPos>
 															<Flags>5</Flags>
+															<SegmentShape>Log2</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>1000</XPos>
@@ -124,10 +130,46 @@
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
 										<ObstructionVolumeUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="ObstructionVolume" ID="{451BE531-880E-459F-9A54-3CD77DA5BF31}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
 										</ObstructionVolumeUsage>
 										<ObstructionLPFUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="ObstructionLPF" ID="{D0690BA6-6FD0-4A63-87DC-395B10B0BF7D}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>61</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
 										</ObstructionLPFUsage>
 										<ObstructionHPFUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>

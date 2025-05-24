@@ -23,7 +23,7 @@
 													<EffectSlot Name="" ID="{7E89ADE0-D23E-4DD4-A30F-FE3990C948B5}" ShortID="623463225">
 														<ReferenceList>
 															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																<ObjectRef Name="Hall_Medium_Bright" ID="{3C3845B2-C76E-4634-9108-83FA43A5A7BC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 															</Reference>
 														</ReferenceList>
 													</EffectSlot>

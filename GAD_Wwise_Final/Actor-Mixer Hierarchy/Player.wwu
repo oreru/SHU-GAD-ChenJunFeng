@@ -25,6 +25,508 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Foley_Cloth_Texture" ID="{42833F42-3845-4945-A6DE-6F8BED56354B}" ShortID="858046284">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="FOL_Cloth_Run_Armor" ID="{028576A2-EB0A-42AB-90D7-0B69A1D086BD}" ShortID="54682651">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B1106FF9-6E62-47FB-89F7-5C0FCE16648C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-125"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FOL_Cloth_Run_Armor_01" ID="{CC4029F3-507A-4096-9F04-9FC16105C365}" ShortID="98373782">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Armor_01" ID="{E69BDF49-1652-4A2B-8449-3F739AAED30B}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Armor_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="258404650"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Armor_01" ID="{E69BDF49-1652-4A2B-8449-3F739AAED30B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Armor_02" ID="{BF2DBEC4-0899-4280-85ED-E481D1D135A1}" ShortID="502467310">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Armor_02" ID="{20E288D8-08ED-4FE9-8697-7D03828FFF74}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Armor_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="804483039"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Armor_02" ID="{20E288D8-08ED-4FE9-8697-7D03828FFF74}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Armor_03" ID="{241D0DDC-5D34-46F6-ADAB-7AAFDB7BEF87}" ShortID="156570525">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Armor_03" ID="{44E5854D-902A-4018-AABC-D75BB2AA4797}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Armor_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="939212787"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Armor_03" ID="{44E5854D-902A-4018-AABC-D75BB2AA4797}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Armor_04" ID="{11C29FF2-A3CC-4B2F-A3B5-9B9E429729A5}" ShortID="38777692">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Armor_04" ID="{6383E16D-7852-417E-A317-D7E8373C7DC9}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Armor_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="330590622"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Armor_04" ID="{6383E16D-7852-417E-A317-D7E8373C7DC9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Armor_05" ID="{A46B7889-C03C-452C-BF5F-81110F6CFB89}" ShortID="377755651">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Armor_05" ID="{08D44A72-78A8-46E7-AE61-3D4EA24E8620}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Armor_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="860272662"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Armor_05" ID="{08D44A72-78A8-46E7-AE61-3D4EA24E8620}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Armor_06" ID="{9D357DB4-24AD-4574-8FE2-249C7C0F82C7}" ShortID="338195485">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Armor_06" ID="{0424DC32-FDAD-4944-8D6C-C4AC2F9632F8}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Armor_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="310035828"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Armor_06" ID="{0424DC32-FDAD-4944-8D6C-C4AC2F9632F8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Armor_07" ID="{3C0D4190-9853-48CA-8E84-031A9B203540}" ShortID="1056609664">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Armor_07" ID="{36C8F5D9-FD72-4C60-9B74-4B4CFCCE48F4}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Armor_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="650208855"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Armor_07" ID="{36C8F5D9-FD72-4C60-9B74-4B4CFCCE48F4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Armor_08" ID="{32CBB2CC-B49B-4DB5-A919-BD1085FEC0CD}" ShortID="814266631">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Armor_08" ID="{E161E9F6-DFDE-418B-868A-491549FE29F1}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Armor_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="252561286"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Armor_08" ID="{E161E9F6-DFDE-418B-868A-491549FE29F1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Armor_09" ID="{FE40227A-0F6B-421E-B349-4351839029F0}" ShortID="720169892">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Armor_09" ID="{3F5486EF-AF0B-4872-A78E-FDE1981E432D}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Armor_09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="693693533"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Armor_09" ID="{3F5486EF-AF0B-4872-A78E-FDE1981E432D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="FOL_Cloth_Run_Fabric" ID="{38B2E293-3D70-4E4E-882E-6DB53CA1470F}" ShortID="752951582">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F8EBED3D-BC4B-4558-8806-B8DB2CA1C52F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="125"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FOL_Cloth_Run_Fabric_01" ID="{2BA52E1C-0ED3-4793-8CE2-7180BA48A5CC}" ShortID="230662308">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Fabric_01" ID="{5A24F123-462B-4E85-ABEC-205785969B79}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Fabric_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1063660677"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Fabric_01" ID="{5A24F123-462B-4E85-ABEC-205785969B79}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Fabric_02" ID="{B5020B7E-8298-46E6-B50E-93B7564B77D9}" ShortID="1046540827">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Fabric_02" ID="{F38D0EFD-8316-458D-9624-A75E020F1292}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Fabric_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="437374280"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Fabric_02" ID="{F38D0EFD-8316-458D-9624-A75E020F1292}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Fabric_03" ID="{AAACD10B-2AC4-406C-AB2D-C81D9D037E99}" ShortID="603504606">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Fabric_03" ID="{BFDA5A46-657C-40DB-92E5-4EF66DA4482D}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Fabric_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="643872858"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Fabric_03" ID="{BFDA5A46-657C-40DB-92E5-4EF66DA4482D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Fabric_04" ID="{A135BFE7-1FB8-45A3-A607-6B803CE95E2A}" ShortID="539839807">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Fabric_04" ID="{8C04C831-378D-47A3-A225-BB8FC8053AD4}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Fabric_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="548602297"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Fabric_04" ID="{8C04C831-378D-47A3-A225-BB8FC8053AD4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Fabric_05" ID="{E4E3FAEE-0BA2-49E7-BB4E-53B40373C0C8}" ShortID="320985567">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Fabric_05" ID="{E8D65A4F-C487-46BC-880E-67EF852B29DB}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Fabric_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="939817603"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Fabric_05" ID="{E8D65A4F-C487-46BC-880E-67EF852B29DB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Fabric_06" ID="{5DEFF87A-024C-495D-9447-DD0A147B8414}" ShortID="122765335">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Fabric_06" ID="{B32561E3-F38E-49BC-8080-FE6A9D33F1E1}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Fabric_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="266791966"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Fabric_06" ID="{B32561E3-F38E-49BC-8080-FE6A9D33F1E1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Fabric_07" ID="{210F7A16-34CD-4573-A5FC-627DE3457299}" ShortID="912285806">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Fabric_07" ID="{4A696E9D-C068-44B5-8F9B-CB8B32B3D1DD}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Fabric_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="666854287"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Fabric_07" ID="{4A696E9D-C068-44B5-8F9B-CB8B32B3D1DD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FOL_Cloth_Run_Fabric_08" ID="{D8C588FE-3987-4E34-83B2-33B610125BE3}" ShortID="215444098">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FOL_Cloth_Run_Fabric_08" ID="{FF4233E3-558A-47C6-B1B8-E73A6E1975A5}">
+															<Language>SFX</Language>
+															<AudioFile>FOL_Cloth_Run_Fabric_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="540766649"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FOL_Cloth_Run_Fabric_08" ID="{FF4233E3-558A-47C6-B1B8-E73A6E1975A5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Foley_FS" ID="{50218B6B-AD49-4F14-9B05-1D6A86EB8D11}" ShortID="807232663">
 							<ReferenceList>
@@ -1361,128 +1863,6 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="FOL_FS_Debris_Sand" ID="{B5D7C28A-6704-439F-8164-0D221F6B1116}" ShortID="839138675">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="FOL_FS_Debris_Sand_01" ID="{3A75150B-1B76-44E6-B9EA-B10C47073B7D}" ShortID="448840289">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Debris_Sand_01" ID="{68F05EBF-62C7-4CA6-AC8A-3CF8E527A153}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Debris_Sand_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="763448229"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Debris_Sand_01" ID="{68F05EBF-62C7-4CA6-AC8A-3CF8E527A153}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Debris_Sand_02" ID="{B9CD88F4-09CA-4802-A754-A61D1DCCA81D}" ShortID="409315917">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Debris_Sand_02" ID="{0CB49167-A5F2-4ABC-8EE4-B795DCB63CCD}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Debris_Sand_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="1029543488"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Debris_Sand_02" ID="{0CB49167-A5F2-4ABC-8EE4-B795DCB63CCD}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Debris_Sand_03" ID="{DB613B8C-495E-4A6A-BD76-F66511C27B5A}" ShortID="47746376">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Debris_Sand_03" ID="{67191C73-590D-413B-A50B-84CB81EDA3AE}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Debris_Sand_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="622544401"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Debris_Sand_03" ID="{67191C73-590D-413B-A50B-84CB81EDA3AE}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Debris_Sand_04" ID="{0B21F9C5-89AC-4A6C-88D3-C86064C09D34}" ShortID="225786835">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Debris_Sand_04" ID="{9A8D8991-7900-4996-B188-BB8623AC2618}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Debris_Sand_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="650662338"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Debris_Sand_04" ID="{9A8D8991-7900-4996-B188-BB8623AC2618}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Debris_Sand_05" ID="{9A013100-6B92-4BF1-8FCA-07973763E472}" ShortID="639015780">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Debris_Sand_05" ID="{98CA0AB2-769B-41FD-AAFA-4530B795173F}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Debris_Sand_05.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="199083492"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Debris_Sand_05" ID="{98CA0AB2-769B-41FD-AAFA-4530B795173F}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="FOL_FS_Debris_Wood" ID="{22F532AB-D177-4190-B520-AC67A0D44611}" ShortID="909516456">
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -1615,9 +1995,6 @@
 														<ItemRef Name="FOL_FS_Debris_Dirt" ID="{FB02C527-0820-4BF5-BBBA-1251EB15C511}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="FOL_FS_Debris_Sand" ID="{B5D7C28A-6704-439F-8164-0D221F6B1116}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
 														<ItemRef Name="FOL_FS_Debris_Wood" ID="{22F532AB-D177-4190-B520-AC67A0D44611}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
@@ -1649,12 +2026,6 @@
 															<ItemRef Name="FOL_FS_Debris_Dirt" ID="{FB02C527-0820-4BF5-BBBA-1251EB15C511}"/>
 														</ItemList>
 													</Grouping>
-													<Grouping>
-														<SwitchRef Name="Sand" ID="{711053EB-75A9-4C64-8A92-1A3E67E85346}"/>
-														<ItemList>
-															<ItemRef Name="FOL_FS_Debris_Sand" ID="{B5D7C28A-6704-439F-8164-0D221F6B1116}"/>
-														</ItemList>
-													</Grouping>
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
@@ -1670,572 +2041,12 @@
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
-												<SwitchRef Name="Debris" ID="{3A378115-BDFC-4DED-9E63-F1D3D4A04F00}"/>
-												<ItemList>
-													<ItemRef Name="FOL_FS_Run_Debris" ID="{B7118FF0-B66C-45F9-9D36-DEF5B4A1F0EE}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
 												<SwitchRef Name="Highheel" ID="{FE2375E2-33F3-4566-BE9D-1D8CEBF2A370}"/>
 												<ItemList>
 													<ItemRef Name="FOL_FS_Run_Highheel" ID="{7452F3DE-C4BB-4FD7-93BB-7C4A764E2666}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
-								<SwitchContainer Name="FOL_FS_Scuff" ID="{4D0F0952-FA68-41B4-A357-9DDAC1DEDBD4}" ShortID="371845623">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SwitchContainer Name="FOL_FS_Scuff_Highheel" ID="{EB0583E3-4928-4D29-9EEF-9C2942C7BEF0}" ShortID="405048532">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<RandomSequenceContainer Name="FOL_FS_Scuff_Highheel_Grass" ID="{ABC6C2E2-C677-4720-B3AA-076A21B7EE0B}" ShortID="267365282">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="FOL_FS_Scuff_Highheel_Grass_01" ID="{E436648F-35E7-4C17-AEA2-B50F2BEA35DA}" ShortID="684445525">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Highheel_Grass_01" ID="{4AA6E6D7-6613-4AA3-ACAC-F2F2634E2FE5}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Highheel_Grass_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="625635339"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Highheel_Grass_01" ID="{4AA6E6D7-6613-4AA3-ACAC-F2F2634E2FE5}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Highheel_Grass_02" ID="{7E9B544D-7805-467E-A04C-615CA704836A}" ShortID="917373265">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Highheel_Grass_02" ID="{4D56D630-1A2B-46D1-ACF0-46DABA426BF9}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Highheel_Grass_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="948572430"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Highheel_Grass_02" ID="{4D56D630-1A2B-46D1-ACF0-46DABA426BF9}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Highheel_Grass_03" ID="{A80E6FF4-0EF1-43BE-91EF-CAFA8933A57B}" ShortID="481577979">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Highheel_Grass_03" ID="{9B7BFEE0-CC87-4336-AF4F-53D3748654C1}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Highheel_Grass_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="562523062"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Highheel_Grass_03" ID="{9B7BFEE0-CC87-4336-AF4F-53D3748654C1}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Highheel_Grass_04" ID="{31115101-2726-4A44-9269-9FA5C588AF1D}" ShortID="340249470">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Highheel_Grass_04" ID="{2EFA4C44-58E8-4B8B-BA9F-FDEAA00F807A}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Highheel_Grass_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="202939038"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Highheel_Grass_04" ID="{2EFA4C44-58E8-4B8B-BA9F-FDEAA00F807A}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Highheel_Grass_05" ID="{4B4DB07C-6DC6-47CD-B6B4-469A2F8F3A43}" ShortID="896797118">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Highheel_Grass_05" ID="{83A5D18E-5366-4CA3-BFB4-3E9CD96D2D5E}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Highheel_Grass_05.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="42008287"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Highheel_Grass_05" ID="{83A5D18E-5366-4CA3-BFB4-3E9CD96D2D5E}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-											</ChildrenList>
-											<GroupingInfo>
-												<GroupingBehaviorList>
-													<GroupingBehavior>
-														<ItemRef Name="FOL_FS_Scuff_Highheel_Grass" ID="{ABC6C2E2-C677-4720-B3AA-076A21B7EE0B}"/>
-													</GroupingBehavior>
-												</GroupingBehaviorList>
-											</GroupingInfo>
-										</SwitchContainer>
-										<SwitchContainer Name="FOL_FS_Scuff_Water" ID="{721D1466-1A80-4BBF-B48D-C0307CB733CE}" ShortID="770815968">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<RandomSequenceContainer Name="FOL_FS_Scuff_Water_Deep" ID="{D0B836AE-8FF1-482A-8502-7459C07FCDE4}" ShortID="675216569">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="FOL_FS_Scuff_Water_Deep_01" ID="{B2B03A77-9B38-4D62-99B9-6A5693236179}" ShortID="85422392">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Deep_01" ID="{C6E28EBC-6CCE-4AAB-9EDC-6E2A30F62EC9}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Deep_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="720269554"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Deep_01" ID="{C6E28EBC-6CCE-4AAB-9EDC-6E2A30F62EC9}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Deep_02" ID="{CD707F68-7FDB-4E05-B07A-B9F9174A41AB}" ShortID="1003338032">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Deep_02" ID="{D10CC586-06E5-4EF7-AE88-A559FE66FE40}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Deep_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="302420347"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Deep_02" ID="{D10CC586-06E5-4EF7-AE88-A559FE66FE40}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Deep_03" ID="{C798B292-7485-4047-A0F1-BE4310B23AB2}" ShortID="2276411">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Deep_03" ID="{A3A4C882-049E-433D-B12B-21192F2C27C6}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Deep_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="158382012"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Deep_03" ID="{A3A4C882-049E-433D-B12B-21192F2C27C6}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Deep_04" ID="{AEF337A7-4074-4A62-AD73-B0CCE13FB78C}" ShortID="167406202">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Deep_04" ID="{ABF02DC0-B611-452F-A432-77B16A59558A}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Deep_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="337800441"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Deep_04" ID="{ABF02DC0-B611-452F-A432-77B16A59558A}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Deep_05" ID="{BEB85DEF-153D-46CC-B01F-0D8AFA2185D2}" ShortID="308079800">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Deep_05" ID="{CCE9A657-00DC-419B-8C85-AD3146300698}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Deep_05.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="446678852"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Deep_05" ID="{CCE9A657-00DC-419B-8C85-AD3146300698}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="FOL_FS_Scuff_Water_Middle" ID="{C06E64A1-399A-4648-A504-1BFD538A6E17}" ShortID="1042447335">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="FOL_FS_Scuff_Water_Middle_01" ID="{BA08AD6D-D7BD-43E1-A0A7-7139B9087E69}" ShortID="865726198">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Middle_01" ID="{614A335E-414E-4A8D-9E21-9BD3B01DB2B4}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Middle_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="618515390"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Middle_01" ID="{614A335E-414E-4A8D-9E21-9BD3B01DB2B4}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Middle_02" ID="{4DDE90B5-221C-4830-B7C1-734957DF5FB6}" ShortID="694269959">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Middle_02" ID="{326E9F56-426E-4C62-82B2-185C48FBA819}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Middle_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="811277535"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Middle_02" ID="{326E9F56-426E-4C62-82B2-185C48FBA819}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Middle_03" ID="{54F581FD-67B5-4896-A71C-D1225B474C05}" ShortID="458877088">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Middle_03" ID="{B1BF37E8-6622-40C4-AF9E-C6232311C4CE}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Middle_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="216635743"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Middle_03" ID="{B1BF37E8-6622-40C4-AF9E-C6232311C4CE}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Middle_04" ID="{2EAC7BCA-1B98-46CC-A8BA-0413E7E03682}" ShortID="777281207">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Middle_04" ID="{729295FB-5DA9-4386-A8FB-4FFDD91B2A9D}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Middle_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="609193495"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Middle_04" ID="{729295FB-5DA9-4386-A8FB-4FFDD91B2A9D}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Middle_05" ID="{8984A6F9-ECDC-4DA4-8504-571BE9E1C382}" ShortID="518896618">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Middle_05" ID="{F1270904-1B44-43E8-B9B6-2DB641384506}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Middle_05.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="637217449"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Middle_05" ID="{F1270904-1B44-43E8-B9B6-2DB641384506}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="FOL_FS_Scuff_Water_Shallow" ID="{6C7178E1-C72C-4ECE-B5BC-285F25EA68FA}" ShortID="347470773">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="FOL_FS_Scuff_Water_Shallow_01" ID="{F65899C5-9FC5-4820-B608-FE8DA37DACFD}" ShortID="1037680894">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Shallow_01" ID="{F8D8460A-0DCB-4867-8385-0D7C16E059B9}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Shallow_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="750852830"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Shallow_01" ID="{F8D8460A-0DCB-4867-8385-0D7C16E059B9}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Shallow_02" ID="{45691189-AE78-4384-A582-935AA584FAD6}" ShortID="1039505641">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Shallow_02" ID="{D0F21070-8088-4BF3-B550-452B8FA818E7}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Shallow_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="476587077"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Shallow_02" ID="{D0F21070-8088-4BF3-B550-452B8FA818E7}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Shallow_03" ID="{7B0FE148-353D-43B6-A66F-080F3A4C471C}" ShortID="417782876">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Shallow_03" ID="{5E410723-9D7B-430B-BE89-A155F74405E4}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Shallow_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="424223095"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Shallow_03" ID="{5E410723-9D7B-430B-BE89-A155F74405E4}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Shallow_04" ID="{1FEDD3EC-45A4-4737-9D6A-9531C8A263F2}" ShortID="933485103">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Shallow_04" ID="{99324015-283D-4372-BEE7-00CC5C59F759}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Shallow_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="531870349"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Shallow_04" ID="{99324015-283D-4372-BEE7-00CC5C59F759}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="FOL_FS_Scuff_Water_Shallow_05" ID="{28D129A2-EC61-42EF-9928-B91CA36AFECD}" ShortID="41584914">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4563B3D1-088E-4B02-8092-987ACCA994A6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC84C0A2-BE51-41D6-9943-1356726DA3A5}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="FOL_FS_Scuff_Water_Shallow_05" ID="{61A5C1C3-513E-4BE4-A907-A8626F2F2706}">
-																	<Language>SFX</Language>
-																	<AudioFile>FOL_FS_Scuff_Water_Shallow_05.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="897138590"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="FOL_FS_Scuff_Water_Shallow_05" ID="{61A5C1C3-513E-4BE4-A907-A8626F2F2706}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-											</ChildrenList>
-											<GroupingInfo>
-												<GroupingBehaviorList>
-													<GroupingBehavior>
-														<ItemRef Name="FOL_FS_Scuff_Water_Middle" ID="{C06E64A1-399A-4648-A504-1BFD538A6E17}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="FOL_FS_Scuff_Water_Deep" ID="{D0B836AE-8FF1-482A-8502-7459C07FCDE4}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="FOL_FS_Scuff_Water_Shallow" ID="{6C7178E1-C72C-4ECE-B5BC-285F25EA68FA}"/>
-													</GroupingBehavior>
-												</GroupingBehaviorList>
-											</GroupingInfo>
-										</SwitchContainer>
-									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="FOL_FS_Scuff_Water" ID="{721D1466-1A80-4BBF-B48D-C0307CB733CE}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="FOL_FS_Scuff_Highheel" ID="{EB0583E3-4928-4D29-9EEF-9C2942C7BEF0}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>

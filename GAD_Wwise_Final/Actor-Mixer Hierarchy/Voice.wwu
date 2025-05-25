@@ -11,13 +11,18 @@
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{95FEA218-067D-4A96-9C9A-98602DCA0FFE}" ShortID="247653142">
 									<PropertyList>
-										<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+										<Property Name="RadiusMax" Type="Real64" Value="5000"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -34,13 +39,13 @@
 															<SegmentShape>Exp1</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>557.2686</XPos>
+															<XPos>1857.562</XPos>
 															<YPos>-7.12858</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>InvertedSCurve</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>1500</XPos>
+															<XPos>5000</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -62,13 +67,13 @@
 															<SegmentShape>Log2</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>581.49765</XPos>
+															<XPos>1938.3255</XPos>
 															<YPos>0</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>SCurve</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>1500</XPos>
+															<XPos>5000</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -92,7 +97,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>1500</XPos>
+															<XPos>5000</XPos>
 															<YPos>31</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -123,7 +128,7 @@
 														</Point>
 														<Point>
 															<XPos>100</XPos>
-															<YPos>-0</YPos>
+															<YPos>0</YPos>
 															<Flags>37</Flags>
 														</Point>
 													</PointList>

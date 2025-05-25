@@ -6,7 +6,6 @@
 				<SwitchGroup Name="ShoeType" ID="{5815EB2C-F07E-46D8-B5F0-EBF1E49067FD}">
 					<ChildrenList>
 						<Switch Name="Highheel" ID="{FE2375E2-33F3-4566-BE9D-1D8CEBF2A370}"/>
-						<Switch Name="Debris" ID="{3A378115-BDFC-4DED-9E63-F1D3D4A04F00}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Material" ID="{E9AE72BF-BF34-475E-988B-3A1E5EA2DAE6}">
@@ -15,8 +14,6 @@
 						<Switch Name="Rock" ID="{C4B699B2-19CA-418D-9C30-25CA880F2FF7}"/>
 						<Switch Name="Grass" ID="{778D28CF-CA0E-4755-AB9B-8FB04B83A9AB}"/>
 						<Switch Name="Wood" ID="{0F127DC8-B6FA-4325-8EA7-6198DEE6DC69}"/>
-						<Switch Name="Sand" ID="{711053EB-75A9-4C64-8A92-1A3E67E85346}"/>
-						<Switch Name="Water" ID="{83FEA741-2E0F-4154-8992-4B4263D5F89A}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

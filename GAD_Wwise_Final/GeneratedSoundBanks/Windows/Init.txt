@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	410571065	Is_In_Water			\Default Work Unit\Is_In_Water	
+
+State	ID	Name	State Group			Notes
+	447521081	Under_Water	Is_In_Water			
+	748895195	None	Is_In_Water			
+	2822301385	Out_Of_Water	Is_In_Water			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

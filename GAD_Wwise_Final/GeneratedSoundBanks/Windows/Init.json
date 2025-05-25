@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{DA5906E8-B0BE-FB38-DD2C-585C132BAD13}",
+    "Hash": "{3CEAD4AE-000F-A03C-3DF4-2DDD6B3CEA0D}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -73,6 +73,34 @@
       }
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "410571065",
+      "Name": "Is_In_Water",
+      "ObjectPath": "\\States\\Default Work Unit\\Is_In_Water",
+      "GUID": "{67951598-CA6F-40A4-B235-B03BCC69470F}",
+      "States": [
+       {
+        "Id": "447521081",
+        "Name": "Under_Water",
+        "ObjectPath": "\\States\\Default Work Unit\\Is_In_Water\\Under_Water",
+        "GUID": "{D5177534-84AB-4048-B444-8A16625274E7}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Is_In_Water\\None",
+        "GUID": "{462D8C45-A104-4814-9B77-9A8CB029A657}"
+       },
+       {
+        "Id": "2822301385",
+        "Name": "Out_Of_Water",
+        "ObjectPath": "\\States\\Default Work Unit\\Is_In_Water\\Out_Of_Water",
+        "GUID": "{06C873D0-1DC7-40F3-962B-2E1C06ED0243}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "2413944604",
@@ -80,12 +108,6 @@
       "ObjectPath": "\\Switches\\Default Work Unit\\ShoeType",
       "GUID": "{5815EB2C-F07E-46D8-B5F0-EBF1E49067FD}",
       "Switches": [
-       {
-        "Id": "459611840",
-        "Name": "Debris",
-        "ObjectPath": "\\Switches\\Default Work Unit\\ShoeType\\Debris",
-        "GUID": "{3A378115-BDFC-4DED-9E63-F1D3D4A04F00}"
-       },
        {
         "Id": "3129509287",
         "Name": "Highheel",
@@ -100,12 +122,6 @@
       "ObjectPath": "\\Switches\\Default Work Unit\\Material",
       "GUID": "{E9AE72BF-BF34-475E-988B-3A1E5EA2DAE6}",
       "Switches": [
-       {
-        "Id": "803837735",
-        "Name": "Sand",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Sand",
-        "GUID": "{711053EB-75A9-4C64-8A92-1A3E67E85346}"
-       },
        {
         "Id": "2058049674",
         "Name": "Wood",
@@ -125,12 +141,6 @@
         "GUID": "{08B5B3E4-F9F0-410A-AA94-EBB35D69E80F}"
        },
        {
-        "Id": "2654748154",
-        "Name": "Water",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Water",
-        "GUID": "{83FEA741-2E0F-4154-8992-4B4263D5F89A}"
-       },
-       {
         "Id": "4248645337",
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Grass",
@@ -141,6 +151,6 @@
     ]
    }
   ],
-  "FileHash": "{1ED53981-A155-8AF7-8420-2643E5A600A4}"
+  "FileHash": "{AB18481E-9AB8-CAAD-0C75-C4DD4A629B6B}"
  }
 }

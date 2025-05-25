@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3087908946	Play_Foley_Cloth_Texture			\Default Work Unit\Play_Foley_Cloth_Texture	
+

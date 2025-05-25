@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{18F43777-2EBD-4710-87B3-425AC44E1B20}",
     "Language": "SFX",
-    "Hash": "{06D642DF-0A75-5DCF-02F6-0266680C41D8}",
+    "Hash": "{42E5B0CB-3C2E-CCF3-C500-CA4570F85C2F}",
     "ObjectPath": "Play_VO_Female_WwiseSpatialAudio",
     "ShortName": "Play_VO_Female_WwiseSpatialAudio",
     "Path": "Event/Play_VO_Female_WwiseSpatialAudio.bnk",
@@ -49,7 +49,7 @@
       "Name": "Play_VO_Female_WwiseSpatialAudio",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_VO_Female_WwiseSpatialAudio",
       "GUID": "{18F43777-2EBD-4710-87B3-425AC44E1B20}",
-      "MaxAttenuation": "1500",
+      "MaxAttenuation": "5000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -66,6 +66,6 @@
     ]
    }
   ],
-  "FileHash": "{383AB7F3-AA11-B56C-BB6E-5F8C86D88CDC}"
+  "FileHash": "{D61AA2D5-B4C5-31D7-AAC7-6FBBE7AF5059}"
  }
 }
